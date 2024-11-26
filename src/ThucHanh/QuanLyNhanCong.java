@@ -37,8 +37,7 @@ class NhanCong{
     }
     
     public void input(Scanner in){
-        ++sma;
-        this.code = "NV" + String. + (sma+"");
+        this.code = "NV" + String.valueOf(sma++);
         
     }
 
